@@ -9,5 +9,14 @@ export class AppComponent {
   title = 'my-materialtable-app';
   notifications=2;
   showSpinner=false;
-  
+
+loadData(){
+  this.showSpinner=true;
+  setTimeout(()=>{
+    this.showSpinner=false;
+  },5000)
+}
+
+
+
 }
