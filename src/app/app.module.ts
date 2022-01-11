@@ -24,7 +24,14 @@ import { SidebarComponent } from './layout/sidebar/sidebar.component';
     MatSidenavModule,
     LayoutModule
   ],
-  
+  exports:[
+    HeaderComponent,
+    FooterComponent,
+    SidebarComponent 
+
+
+  ],
+
   providers: [],
   bootstrap: [AppComponent]
 })
