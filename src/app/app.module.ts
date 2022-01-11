@@ -12,17 +12,17 @@ import { SidebarComponent } from './layout/sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    HeaderComponent,
-    FooterComponent,
-    SidebarComponent 
+    AppComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatSidenavModule,
-    LayoutModule
+    LayoutModule,
+    HeaderComponent,
+    FooterComponent,
+    SidebarComponent 
   ],
   
   providers: [],
