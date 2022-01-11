@@ -19,13 +19,12 @@ import { SidebarComponent } from './layout/sidebar/sidebar.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatSidenavModule,
-    LayoutModule 
-  ],
-  exports:[
+    LayoutModule,
     HeaderComponent,
     FooterComponent,
-    SidebarComponent
-  ]
+    SidebarComponent 
+  ],
+  
   providers: [],
   bootstrap: [AppComponent]
 })
