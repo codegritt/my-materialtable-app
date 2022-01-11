@@ -8,4 +8,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'my-materialtable-app';
   notifications=2;
+  showSpinner=false;
+  
 }
