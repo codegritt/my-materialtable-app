@@ -1,106 +1,106 @@
-<div class="container">
-<div class="mat-display-4">This is display 4</div>
-<div class="mat-display-3">This is display 3</div>
-<div class="mat-display-2">This is display 2</div>
-<div class="mat-display-1">This is display 1</div>
+
+  <div class="mat-display-4">This is display 4</div>
+  <div class="mat-display-3">This is display 3</div>
+  <div class="mat-display-2">This is display 2</div>
+  <div class="mat-display-1">This is display 1</div>
 
 
 
-<div class="mat-headline">heading for h1</div>
-<div class="mat-title">heading for h2</div>
-<div class="mat-subheading-2">heading for h3</div>
-<div class="mat-subheading-1">heading for h4</div>
+  <div class="mat-headline">heading for h1</div>
+  <div class="mat-title">heading for h2</div>
+  <div class="mat-subheading-2">heading for h3</div>
+  <div class="mat-subheading-1">heading for h4</div>
 
-<div class="mat-body-1">body text</div>
-<div class="mat-body-2">bold body text</div>
-<div class="mat-caption">caption text</div>
-
-
-<div class="mat-typography">
-<h1>Hello gokul</h1>
-<h2>Hello gokul</h2>
-<h3>Hello gokul</h3>
-<h4>Hello gokul</h4>
-
-</div>
+  <div class="mat-body-1">body text</div>
+  <div class="mat-body-2">bold body text</div>
+  <div class="mat-caption">caption text</div>
 
 
-<div>
-  <button mat-button>Hello world</button>
+  <div class="mat-typography">
+    <h1>Hello gokul</h1>
+    <h2>Hello gokul</h2>
+    <h3>Hello gokul</h3>
+    <h4>Hello gokul</h4>
 
-  <button mat-raised-button>Hello world</button>
-  <button mat-flat-button>Hello world</button>
-
-  <button mat-stroked-button>Hello world</button>
-
-
-
-</div>
-
-<div>
-
-  <button mat-icon-button>icon</button>
-  <button mat-fab>fab</button>
-  <button mat-mini-fab>mini fab</button>
-
-</div>
-<div>
-  <button color="primary" mat-button>primary</button>
-  <button color="accent" mat-button>accent</button>
-  <button color="warn" mat-button>warn</button>
-  <button color="primary" mat-raised-button>primary</button>
-  <button color="accent" mat-raised-button>accent</button>
-  <button color="warn" mat-raised-button>warn</button>
-
-  <button color="primary" disableRipple mat-button>primary</button>
-  <button color="accent" disableRipple mat-button>accent</button>
-  <button color="warn" disableRipple mat-button>warn</button>
-</div>
-
-<div>
-  <mat-button-toggle>Toggle</mat-button-toggle>
-
-  <mat-button-toggle #togglebtn>Toggle</mat-button-toggle>
-  {{togglebtn.checked}}
-
-  <mat-button-toggle #togglebtn checked>Toggle</mat-button-toggle>
-  {{togglebtn.checked}}
-
-  <mat-button-toggle #togglebtn checked disableRipple>Toggle</mat-button-toggle>
-  {{togglebtn.checked}}
-
-  
-  <mat-button-toggle #togglebtn checked disableRipple disabled>Toggle</mat-button-toggle>
-  {{togglebtn.checked}}
-</div>
-<hr>
-<div>
-  <mat-button-toggle-group #toggleGroup="matButtonToggleGroup">
-<mat-button-toggle value="angular">Angular</mat-button-toggle>
-<mat-button-toggle value="vue">Vue</mat-button-toggle>
-<mat-button-toggle value="react">React</mat-button-toggle>
-{{toggleGroup.value}}
-  </mat-button-toggle-group>
-
-  <mat-button-toggle-group #toggleGroup="matButtonToggleGroup" multiple>
-    <mat-button-toggle value="angular">Angular</mat-button-toggle>
-    <mat-button-toggle value="vue">Vue</mat-button-toggle>
-    <mat-button-toggle value="react">React</mat-button-toggle>
-    {{toggleGroup.value}}
-      </mat-button-toggle-group>
+  </div>
 
 
-</div>
+  <div>
+    <button mat-button>Hello world</button>
 
-<div>
-  <mat-icon>grade</mat-icon>
-  <mat-icon color="primary">grade</mat-icon>
-  <mat-icon color="accent">grade</mat-icon>
-  <mat-icon color="warn">grade</mat-icon>
-</div>
+    <button mat-raised-button>Hello world</button>
+    <button mat-flat-button>Hello world</button>
 
-<div>
-  <span [matBadge]="notifications" [matBadgeHidden]="notifications===0">Notifications</span>
+    <button mat-stroked-button>Hello world</button>
+
+
+
+  </div>
+
+  <div>
+
+    <button mat-icon-button>icon</button>
+    <button mat-fab>fab</button>
+    <button mat-mini-fab>mini fab</button>
+
+  </div>
+  <div>
+    <button color="primary" mat-button>primary</button>
+    <button color="accent" mat-button>accent</button>
+    <button color="warn" mat-button>warn</button>
+    <button color="primary" mat-raised-button>primary</button>
+    <button color="accent" mat-raised-button>accent</button>
+    <button color="warn" mat-raised-button>warn</button>
+
+    <button color="primary" disableRipple mat-button>primary</button>
+    <button color="accent" disableRipple mat-button>accent</button>
+    <button color="warn" disableRipple mat-button>warn</button>
+  </div>
+
+  <div>
+    <mat-button-toggle>Toggle</mat-button-toggle>
+
+    <mat-button-toggle #togglebtn>Toggle</mat-button-toggle>
+    {{togglebtn.checked}}
+
+    <mat-button-toggle #togglebtn checked>Toggle</mat-button-toggle>
+    {{togglebtn.checked}}
+
+    <mat-button-toggle #togglebtn checked disableRipple>Toggle</mat-button-toggle>
+    {{togglebtn.checked}}
+
+
+    <mat-button-toggle #togglebtn checked disableRipple disabled>Toggle</mat-button-toggle>
+    {{togglebtn.checked}}
+  </div>
+  <hr>
+  <div>
+    <mat-button-toggle-group #toggleGroup="matButtonToggleGroup">
+      <mat-button-toggle value="angular">Angular</mat-button-toggle>
+      <mat-button-toggle value="vue">Vue</mat-button-toggle>
+      <mat-button-toggle value="react">React</mat-button-toggle>
+      {{toggleGroup.value}}
+    </mat-button-toggle-group>
+
+    <mat-button-toggle-group #toggleGroup="matButtonToggleGroup" multiple>
+      <mat-button-toggle value="angular">Angular</mat-button-toggle>
+      <mat-button-toggle value="vue">Vue</mat-button-toggle>
+      <mat-button-toggle value="react">React</mat-button-toggle>
+      {{toggleGroup.value}}
+    </mat-button-toggle-group>
+
+
+  </div>
+
+  <div>
+    <mat-icon>grade</mat-icon>
+    <mat-icon color="primary">grade</mat-icon>
+    <mat-icon color="accent">grade</mat-icon>
+    <mat-icon color="warn">grade</mat-icon>
+  </div>
+
+  <div>
+    <span [matBadge]="notifications" [matBadgeHidden]="notifications===0">Notifications</span>
   </div>
   <br>
   <div>
@@ -108,125 +108,124 @@
   </div>
   <br>
   <div>
-    <span matBadge="5"  matBadgePosition="below after">Notifications</span>
+    <span matBadge="5" matBadgePosition="below after">Notifications</span>
 
   </div>
   <br>
- <div>
-  <span matBadge="5"  matBadgePosition="above before">Notifications</span>
-</div>
+  <div>
+    <span matBadge="5" matBadgePosition="above before">Notifications</span>
+  </div>
 
-<div>
-  <span matBadge="5" matBadgeSize="small">Notifications</span>
-</div>
-<div>
-  <span matBadge="5" matBadgeSize="medium">Notifications</span>
-</div>
-<div>
-  <span matBadge="5" matBadgeSize="large">Notifications</span>
-</div>
+  <div>
+    <span matBadge="5" matBadgeSize="small">Notifications</span>
+  </div>
+  <div>
+    <span matBadge="5" matBadgeSize="medium">Notifications</span>
+  </div>
+  <div>
+    <span matBadge="5" matBadgeSize="large">Notifications</span>
+  </div>
 
-<div>
-  <span matBadge="5" matBadgeColor="primary" matBadgeOverlap="false">Notifications</span>
-</div>
-<div>
-  <span matBadge="5" matBadgeColor="accent" matBadgeOverlap="false">Notifications</span>
-</div>
-<div>
-  <span matBadge="5" matBadgeColor="warn" matBadgeOverlap="false">Notifications</span>
-</div>
+  <div>
+    <span matBadge="5" matBadgeColor="primary" matBadgeOverlap="false">Notifications</span>
+  </div>
+  <div>
+    <span matBadge="5" matBadgeColor="accent" matBadgeOverlap="false">Notifications</span>
+  </div>
+  <div>
+    <span matBadge="5" matBadgeColor="warn" matBadgeOverlap="false">Notifications</span>
+  </div>
 
-<div>
-  <mat-progress-spinner value="100"></mat-progress-spinner>
-  <mat-progress-spinner value="80"></mat-progress-spinner>
+  <div>
+    <mat-progress-spinner value="100"></mat-progress-spinner>
+    <mat-progress-spinner value="80"></mat-progress-spinner>
 
-  <mat-progress-spinner value="70"></mat-progress-spinner>
-  <mat-progress-spinner value="50"></mat-progress-spinner>
-  <mat-progress-spinner value="30"></mat-progress-spinner>
-  <mat-spinner></mat-spinner>
-</div>
-<div>
-<mat-spinner *ngIf="showSpinner"></mat-spinner>
-<button (click)="loadData()">Load Data</button>
+    <mat-progress-spinner value="70"></mat-progress-spinner>
+    <mat-progress-spinner value="50"></mat-progress-spinner>
+    <mat-progress-spinner value="30"></mat-progress-spinner>
+    <mat-spinner></mat-spinner>
+  </div>
+  <div>
+    <mat-spinner *ngIf="showSpinner"></mat-spinner>
+    <button (click)="loadData()">Load Data</button>
 
-</div>
-<div>
-  <mat-spinner *ngIf="showSpinner" color="accent"></mat-spinner>
-  <button (click)="loadData()">Load Data</button>
-  
+  </div>
+  <div>
+    <mat-spinner *ngIf="showSpinner" color="accent"></mat-spinner>
+    <button (click)="loadData()">Load Data</button>
+
   </div>
   <div>
     <mat-spinner *ngIf="showSpinner" color="warn"></mat-spinner>
     <button (click)="loadData()">Load Data</button>
-    
-    </div>
-
-    <div>
-      <mat-toolbar><span>
-Gokul Angular
-      </span></mat-toolbar>
-    </div>
-    <div>
-      <mat-toolbar color="accent"><span>
-Gokul Angular
-      </span></mat-toolbar>
-    </div>
-    <div>
-      <mat-toolbar color="warn"><span>
-Gokul Angular
-      </span></mat-toolbar>
-    </div>
-    <div>
-      <mat-toolbar color="primary"><span>
-Gokul Angular
-      </span></mat-toolbar>
-    </div>
-    
-    <mat-toolbar color="primary" class="navbar">
-      <div>Gokul angular</div>
-      <div>
-        <span>Home</span>
-        <span>Services</span>
-        <span>About</span>
-      </div>
-    </mat-toolbar>
 
   </div>
-<div>
+
+  <div>
+    <mat-toolbar><span>
+        Gokul Angular
+      </span></mat-toolbar>
+  </div>
+  <div>
+    <mat-toolbar color="accent"><span>
+        Gokul Angular
+      </span></mat-toolbar>
+  </div>
+  <div>
+    <mat-toolbar color="warn"><span>
+        Gokul Angular
+      </span></mat-toolbar>
+  </div>
+  <div>
+    <mat-toolbar color="primary"><span>
+        Gokul Angular
+      </span></mat-toolbar>
+  </div>
+
+  <mat-toolbar color="primary" class="navbar">
+    <div>Gokul angular</div>
+    <div>
+      <span>Home</span>
+      <span>Services</span>
+      <span>About</span>
+    </div>
+  </mat-toolbar>
+
+
+
   <mat-sidenav-container>
     <mat-sidenav mode="over" [(opened)]="opened">Sidenav</mat-sidenav>
     <mat-sidenav-content>Main
       <button (click)="opened=!opened">Toggle opened</button>
     </mat-sidenav-content>
-    
-    
-    </mat-sidenav-container>
-    
-    <mat-sidenav-container>
-      <mat-sidenav mode="push" [(opened)]="opened">Sidenav</mat-sidenav>
-      <mat-sidenav-content>Main
-        <button (click)="opened=!opened">Toggle opened</button>
-      </mat-sidenav-content>
-      
-      
-      </mat-sidenav-container>
-      
-      <mat-sidenav-container>
-        <mat-sidenav #sidenav (opened)="log('Opened')" (closed)="log('Closed')" mode="side" [(opened)]="opened">Sidenav</mat-sidenav>
-        <mat-sidenav-content>Main
-          <button (click)="opened=!opened">Toggle opened</button>
-          <button (click)="sidenav.open()">Open opened</button>
-          <button (click)="sidenav.close()">Close</button>
-          <button (click)="sidenav.toggle()">Toggle</button>
-        </mat-sidenav-content>
-        
-        
-        </mat-sidenav-container>
-        
-      
-      </div>
- 
-<div>
+
+
+  </mat-sidenav-container>
+
+  <mat-sidenav-container>
+    <mat-sidenav mode="push" [(opened)]="opened">Sidenav</mat-sidenav>
+    <mat-sidenav-content>Main
+      <button (click)="opened=!opened">Toggle opened</button>
+    </mat-sidenav-content>
+
+
+  </mat-sidenav-container>
+
+  <mat-sidenav-container>
+    <mat-sidenav #sidenav (opened)="log('Opened')" (closed)="log('Closed')" mode="side" [(opened)]="opened">Sidenav
+    </mat-sidenav>
+    <mat-sidenav-content>Main
+      <button (click)="opened=!opened">Toggle opened</button>
+      <button (click)="sidenav.open()">Open opened</button>
+      <button (click)="sidenav.close()">Close</button>
+      <button (click)="sidenav.toggle()">Toggle</button>
+    </mat-sidenav-content>
+
+
+  </mat-sidenav-container>
+
+
+
   <mat-menu #appMenu="matMenu">
     <button mat-menu-item[matMenuTriggerFor]="subMenu">Frontend</button>
     <button mat-menu-item>Backend</button>
@@ -239,4 +238,3 @@ Gokul Angular
     <button mat-menu-item>Vue</button>
     
   </mat-menu>
-</div>
