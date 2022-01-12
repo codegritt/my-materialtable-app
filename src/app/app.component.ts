@@ -11,7 +11,7 @@ export class AppComponent {
   showSpinner=false;
   opened=false;
 
-  log(state){
+  log(state: any){
     console.log(state);
   }
 
