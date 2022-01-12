@@ -11,6 +11,10 @@ export class AppComponent {
   showSpinner=false;
   opened=false;
 
+  log(state){
+    console.log(state);
+  }
+
 loadData(){
   this.showSpinner=true;
   setTimeout(()=>{
