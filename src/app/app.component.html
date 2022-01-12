@@ -227,8 +227,9 @@ Gokul Angular
       </div>
  
 <div>
-  <mat-menu>
+  <mat-menu #appMenu="matMenu">
     <button mat-menu-item>Frontend</button>
     <button mat-menu-item>Backend</button>
   </mat-menu>
+  <button mat-flat-button [matMenuTriggerFor]="appMenu">Menu</button>
 </div>
