@@ -21,6 +21,8 @@ loadData(){
     this.showSpinner=false;
   },5000)
 }
+minDate=new Date();
+maxDate=new Date(2019,3,10);
 
 
 
