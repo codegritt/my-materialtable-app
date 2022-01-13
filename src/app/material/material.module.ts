@@ -8,6 +8,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatDatepickerModule} from '@angular/material/datepicker';
+import {MatFormFieldModule} from '@angular/material/form-field';
 
 const MaterialComponents=[
   MatButtonModule,
@@ -18,7 +19,8 @@ const MaterialComponents=[
   MatToolbarModule,
   MatSidenavModule,
   MatMenuModule,
-  MatDatepickerModule
+  MatDatepickerModule,
+  MatFormFieldModule
 ];
 
 @NgModule({
